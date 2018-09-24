@@ -38,12 +38,19 @@ body {
     text-overflow: ellipsis;
 }
 
+p{
+    
+    white-space: pre-wrap;
+}
+
 .title{
     font-size: 24pt;
 }
 
 #textControl {
     color : darkgray;
+    
+    margin: 15px 10px;
 }
 
 #textControl:hover {
@@ -53,8 +60,14 @@ body {
 
 #date{ /* todo aligner à droite */
     display : inline-block;
+    float: right;
     right : 15px;
     color : lightgrey;
     text-transform: uppercase;
     margin-right: 10px;
+}
+
+
+object {
+ margin-left : 15px;   
 }
