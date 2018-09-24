@@ -1,0 +1,60 @@
+body {
+    background-color: #efefef;
+    font-family:    Arial, Helvetica, sans-serif
+}
+
+.mainBody {
+    background-color: white;
+    border-radius: 20px;
+    width: 50%;
+    height: 80%;
+    margin : auto ;
+    margin-top: 50px;  
+    margin-bottom: 50px;
+    padding : 20px;
+    box-shadow: 5px 5px #cccccc;
+}
+
+#avatar { /* le dernier maître de l'air */
+    display: inline-block;
+    height: 30px;
+    width: auto;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.name{
+    /*border: 3px solid green;*/
+    padding : 10px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;    
+}
+
+.postContent{ /* todo mettre un dégradé en avant plan losrque il est réduit*/
+    text-align: justify;    
+    height: auto;
+    overflow: hidden;;
+    text-overflow: ellipsis;
+}
+
+.title{
+    font-size: 24pt;
+}
+
+#textControl {
+    color : darkgray;
+}
+
+#textControl:hover {
+    color : gray;
+    cursor: pointer;
+}
+
+#date{ /* todo aligner à droite */
+    display : inline-block;
+    right : 15px;
+    color : lightgrey;
+    text-transform: uppercase;
+    margin-right: 10px;
+}
