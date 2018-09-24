@@ -31,7 +31,7 @@ body {
     text-align: center;    
 }
 
-.postContent{ /* todo mettre un dégradé en avant plan losrque il est réduit*/
+.postContent{
     text-align: justify;    
     height: auto;
     overflow: hidden;;
@@ -58,7 +58,7 @@ p{
     cursor: pointer;
 }
 
-#date{ /* todo aligner à droite */
+#date{ 
     display : inline-block;
     float: right;
     right : 15px;
